@@ -11,7 +11,8 @@
     "release": "npm run build && npm publish",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
-    "test:coverage": "umi-test --coverage"
+    "test:coverage": "umi-test --coverage",
+    "commit": "git-cz"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -34,6 +35,7 @@
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "@umijs/test": "^3.0.5",
+    "commitizen": "^4.2.4",
     "dumi": "^1.0.14",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
@@ -42,9 +44,14 @@
     "prettier": "^2.2.1",
     "yorkie": "^2.0.0"
   },
-  "husjy": {
+  "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
     }
   }
 }
