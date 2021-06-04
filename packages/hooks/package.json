@@ -1,0 +1,31 @@
+{
+  "name": "hooks",
+  "version": "1.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "lh <liuxiansheng2014@sina.com>",
+  "license": "ISC",
+  "main": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxiansheng2018/lh-libs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "father-build"
+  },
+  "bugs": {
+    "url": "https://github.com/liuxiansheng2018/lh-libs/issues"
+  },
+  "homepage": "https://github.com/liuxiansheng2018/lh-libs#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}

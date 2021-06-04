@@ -1,9 +1,9 @@
 ---
 hero:
-  title: lh-libs
-  desc: lh-libs site example
+  title: 前端库
+  desc: 日常使用的组件库, 函数方法， 自定义Hook
   actions:
-    - text: Getting Started
+    - text: 进行探索
       link: /components
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
