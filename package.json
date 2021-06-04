@@ -28,7 +28,6 @@
     ]
   },
   "dependencies": {
-    "husky": "^6.0.0",
     "react": "^16.12.0"
   },
   "devDependencies": {
@@ -38,6 +37,7 @@
     "dumi": "^1.0.14",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
+    "husky": "4.3.8",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
     "yorkie": "^2.0.0"
