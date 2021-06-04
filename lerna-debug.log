@@ -1,10 +1,10 @@
-30 error Error: Command failed with exit code 1: git commit -F /private/var/folders/lb/f69m3db52m9cmphsf0bpv8dh0000gn/T/2b937695-94f9-4228-8478-2c77e5eefb85/lerna-commit.txt
+30 error Error: Command failed with exit code 1: git commit -F /private/var/folders/lb/f69m3db52m9cmphsf0bpv8dh0000gn/T/f94c2992-0e00-4dff-82f3-41582802abe3/lerna-commit.txt
 30 error warning ../../package.json: No license field
 30 error warning ../../package.json: No license field
 30 error husky > commit-msg (node v15.12.0)
 30 error ⧗   input: Publish
 30 error
-30 error  - hooks@1.0.1
+30 error  - hooks@0.1.0
 30 error ✖   subject may not be empty [subject-empty]
 30 error ✖   type may not be empty [type-empty]
 30 error
